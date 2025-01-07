@@ -85,7 +85,7 @@ a:hover {
 }
 
 .mobile-icon span {
-    height: 3px;
+    height: 2px;
     width: 100%;
     background-color: #000000;
     transition: all 0.3s ease-in-out;
@@ -94,9 +94,8 @@ a:hover {
 .mobile-links {
     position: absolute;
     top: 100%;
-    left: 0;
-    width: 100%;
-    background-color: #928E85;
+    right: 0;
+    width: fit-content;
     max-height: 0;
     overflow: hidden;
     transition: all 0.3s ease-in-out;
